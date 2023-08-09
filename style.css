@@ -1,3 +1,31 @@
-body{
-    background-color: beige;
-}
+/* steps for push your code to github.com */
+
+/* 1. Using any browser to visit github.com and explore the site*/
+/* 2. Create your account or login from github.com  */
+/* 3. Create your New project repository */
+/* 4. Now you have a new repository project like "SelvanN/FB_Project" */
+
+/* 5. git and github is not same both are different   */
+/* 6. Git tool    - is a version control system that allows developers to track changes in their code. 
+   7. GitHub - is a web-based hosting service for git repositories. 
+   In simple terms, you can use git without Github, but you cannot use GitHub without Git. */
+
+/* 8. simple You just go to your browser , then download Git version and then installed Git in your system  */
+/* 9. then open VS-code  "SelvanN/FB_Project"*/
+/* 10. follow the steps to push your project code to github.com*/
+
+/* steps */
+
+/* open vs-code Terminal  */
+/* enter the command lines */
+
+/* 1  -- "# FB_Project" */
+/* 2  -- check your git is working like enter git command u will get some informations */
+/* 3  -- git init */
+/* 4  -- git add index.com or  (.) using dot command push your all file codes  */
+/* 5  -- git commit -m "first commit" - */
+/* 6  -- git branch -M main */
+/* 7  -- git remote add origin https://github.com/SelvanN/FB_Project.git" */
+/* 8  -- push -u origin main */
+
+/* finish successfully your code is pushed to github.com */
