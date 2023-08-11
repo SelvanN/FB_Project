@@ -47,13 +47,14 @@
    margin-top: 40px;
 }
 
-.left{
-width: 55%;
+.left {
+   width: 55%;
 }
 
-.right{
+.right {
    width: 45%;
 }
+
 .left {
    text-align: center;
    margin-top: -10%;
@@ -63,7 +64,7 @@ width: 55%;
 .Heading {
    font-size: 65px;
    font-family: cursive;
-   color:rgb(11, 125, 170);
+   color: rgb(11, 125, 170);
    font-weight: bold;
 }
 
@@ -83,7 +84,7 @@ width: 55%;
    width: 65%;
    padding: 20px;
    background-color: #ffff;
-   box-shadow:1px 1px 3px 1px #929191;
+   box-shadow: 1px 1px 3px 1px #929191;
 }
 
 .Login_page input {
@@ -150,5 +151,38 @@ width: 55%;
    font-weight: bold;
    gap: 5px;
    font-size: 16px;
+
+}
+
+
+/* Mobile design */
+
+
+@media only screen and (max-width:800px) {
+
+   .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+   }
+
+   .left {
+      margin-top: 30px;
+   }
+
+   .SubHeading {
+      text-align: start;
+      width: 100%;
+      margin-left: -1px;
+      font-size: 24px;
+   }
+
+   .right {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
 
 }
